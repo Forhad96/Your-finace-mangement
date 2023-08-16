@@ -35,13 +35,13 @@
           <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto">
             <div id="deposit" class="bg-cyan-700 px-5 py-10 rounded-xl text-white space-y-5">
               <h4 class="text-3xl">Please Deposit</h4>
-              <input id="depositInput" class="block p-2 w-full rounded-lg text-cyan-700 font-bold" type="text" placeholder="$Amount your Deposit">
-              <button class="bg-cyan-400 px-6 py-2 rounded-lg  hover:bg-emerald-700">Deposit</button>
+              <input id="input_deposit" class="block p-2 w-full rounded-lg text-cyan-700 font-bold" type="text" placeholder="$Amount your Deposit">
+              <button id="btn_deposit" class="bg-cyan-400 px-6 py-2 rounded-lg  hover:bg-emerald-700">Deposit</button>
             </div>
             <div id="withdraw" class="bg-emerald-700 px-5 py-10 rounded-xl text-white space-y-5 ">
               <h4 class="text-3xl">Please Withdraw</h4>
-              <input class="block  p-2 w-full rounded-lg text-emerald-700 font-bold" type="text" placeholder="$Amount your Withdraw">
-              <button class="bg-cyan-400 px-6 py-2 rounded-lg  hover:bg-orange-800">Withdraw</button>
+              <input id="input_withdraw" class="block  p-2 w-full rounded-lg text-emerald-700 font-bold" type="text" placeholder="$Amount your Withdraw">
+              <button id="btn_withdraw" class="bg-cyan-400 px-6 py-2 rounded-lg  hover:bg-orange-800">Withdraw</button>
             </div>
           </div>
         </section>
@@ -49,7 +49,7 @@
       </main>
 
       <!-- js -->
-      <script src="utilities.js"></script>
+      <script src="./utilities.js"></script>
       <script src="./index.js"></script>
       <script src="./bankInside.js"></script>
 </body>
